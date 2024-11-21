@@ -8,7 +8,65 @@
 </head>
 <body>
   <div id="navbar-container"></div>
+  <div class="about-page">
+    <header class="about-header">
+      <h1>About DataCon 2024</h1>
+      <p>Unlock the power of data and shape the future.</p>
+    </header>
 
+    <section class="about-intro">
+      <h2>What is DataCon?</h2>
+      <p>
+        DataCon 2024 is a one-day premier conference dedicated to the world of data. 
+        Join industry leaders, innovative thinkers, and passionate data enthusiasts 
+        to explore the latest trends, technologies, and opportunities in data analysis, 
+        people analytics, and data security.
+      </p>
+    </section>
+
+    <section class="about-mission">
+      <h2>Our Mission</h2>
+      <p>
+        At DataCon, we believe in the transformative power of data to shape decisions, 
+        drive innovation, and make the world a better place. Our goal is to connect minds, 
+        inspire creativity, and empower individuals and organizations with data-driven insights.
+      </p>
+    </section>
+
+    <section class="about-why-attend">
+      <h2>Why Attend?</h2>
+      <ul>
+        <li><strong>Learn:</strong> Gain valuable insights from top industry experts.</li>
+        <li><strong>Connect:</strong> Network with like-minded professionals and build lasting connections.</li>
+        <li><strong>Innovate:</strong> Discover cutting-edge tools, techniques, and trends in the data industry.</li>
+      </ul>
+    </section>
+
+    <section class="about-history">
+      <h2>Our History</h2>
+      <p>
+        DataCon began as a grassroots effort to bring together data enthusiasts. Today, 
+        it has grown into a global platform for learning and collaboration, attracting 
+        professionals from across the tech, business, and research communities.
+      </p>
+    </section>
+
+    <section class="about-testimonials">
+      <h2>What Past Attendees Say</h2>
+      <blockquote>
+        "DataCon transformed the way I approach data. The speakers were exceptional, and the 
+        networking opportunities were unmatched!" - <cite>Alex J., Data Scientist</cite>
+      </blockquote>
+      <blockquote>
+        "The best conference I’ve attended. Truly insightful and inspiring!" - <cite>Maria K., Business Analyst</cite>
+      </blockquote>
+    </section>
+
+    <footer class="about-cta">
+      <h2>Ready to Join Us?</h2>
+      <a href="../tickets/index.html" class="btn">Buy Tickets Now</a>
+    </footer>
+  </div>
   <script>
      fetch('/components/navbar.html')
     .then(response => response.text())
@@ -17,10 +75,5 @@
     })
     .catch(error => console.error('Error loading navbar:', error));
   </script>
-
-  <section id="about">
-    <h1>ABOUT</h1>
-    <p>Your premier conference for data insights, security, and innovation.</p>
-  </section>
 </body>
 </html>
