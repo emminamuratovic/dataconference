@@ -1,0 +1,19 @@
+<div class="navbar">
+    <a href="/" class="logo">DataCon</a>
+    <ul class="menu">
+      <li><a href="about/index.html">About</a></li>
+      <li><a href="schedule/index.html">Schedule</a></li>
+      <li><a href="speakers/index.html">Speakers</a></li>
+      <li><a href="partners/index.html">Partners</a></li>
+      <li><a href="agenda/index.html">Agenda</a></li>
+      <li><a href="tickets/index.html">Buy Tickets</a></li>
+    </ul>
+  </div>
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+  
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>

@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  /* Navbar Styles (Global) */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1e1e1e;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .navbar .menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar .menu li {
+    display: inline-block;
+  }
+  
+  .navbar .menu a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar .menu a:hover {
+    background-color: #ff6347;
+    border-radius: 5px;
+  }
+  
+  /* Homepage-Specific Styles */
+  .homepage {
+    /* Add homepage-specific styles here */
+  }
+  
+  .homepage .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('/images/hero-image.jpg') center/cover no-repeat;
+    color: #ffffff;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .homepage .hero h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+  }
+  
+  .homepage .hero p {
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  
+  .homepage .hero .btn {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #ff6347;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .homepage .hero .btn:hover {
+    background-color: #e5533d;
+  }
+  
+  .homepage .fun-facts {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1e1e1e;
+  }
+  
+  .homepage .fun-facts h2 {
+    margin-bottom: 20px;
+  }
+  
+  .homepage .fun-facts p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .homepage .countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #121212;
+    text-align: center;
+  }
+  
+  .homepage .countdown h2 {
+    margin-right: 20px;
+  }
+  
+  .homepage .countdown .days {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff6347;
+  }
+  
+  .homepage .image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+  }
+  
+  .homepage .image-gallery img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .homepage .image-gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .homepage .image-gallery img {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .homepage .image-gallery img {
+      width: 90%;
+    }
+  }
+  
+  .homepage .contact {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .homepage .contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  .homepage .contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .homepage .contact input,
+  .homepage .contact textarea,
+  .homepage .contact button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .homepage .contact input,
+  .homepage .contact textarea {
+    width: 100%;
+    background-color: #2e2e2e;
+    color: #ffffff;
+  }
+  
+  .homepage .contact button {
+    background-color: #ff6347;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .homepage .contact button:hover {
+    background-color: #e5533d;
+  }
+  
+  @media (max-width: 768px) {
+    .homepage .hero h1 {
+      font-size: 2.5em;
+    }
+  
+    .homepage .hero p {
+      font-size: 1.2em;
+    }
+  
+    .homepage .hero .btn {
+      font-size: 0.9em;
+    }
+  }
