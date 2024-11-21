@@ -310,3 +310,118 @@ body {
       font-size: 1.6em;
     }
   }
+
+
+  /* Schedule Page Styles */
+.schedule-page {
+    padding: 20px;
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .schedule-header {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('/images/schedule-header.jpg') center/cover no-repeat;
+    color: #ffffff;
+  }
+  
+  .schedule-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .schedule-header p {
+    font-size: 1.2em;
+  }
+  
+  .schedule-overview, .schedule-details {
+    margin: 40px 0;
+  }
+  
+  .schedule-overview h2, .schedule-details h2 {
+    font-size: 2em;
+    color: #ff6347;
+    margin-bottom: 20px;
+  }
+  
+  .schedule-timeline {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .timeline-item {
+    background: #1c1c1c;
+    padding: 15px 20px;
+    border-left: 5px solid #ff6347;
+  }
+  
+  .timeline-item time {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .timeline-item p {
+    margin: 5px 0 0;
+  }
+  
+  .session-card {
+    background: #1c1c1c;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .session-card h3 {
+    font-size: 1.5em;
+    color: #ff6347;
+    margin-bottom: 10px;
+  }
+  
+  .session-card p {
+    font-size: 1em;
+  }
+  
+  .schedule-cta {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .schedule-cta h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .schedule-cta .btn {
+    background-color: #ff6347;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .schedule-cta .btn:hover {
+    background-color: #ff4500;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .schedule-header h1 {
+      font-size: 2.2em;
+    }
+  
+    .schedule-header p {
+      font-size: 1em;
+    }
+  
+    .schedule-overview h2, .schedule-details h2 {
+      font-size: 1.6em;
+    }
+  
+    .timeline-item time {
+      font-size: 1em;
+    }
+  }

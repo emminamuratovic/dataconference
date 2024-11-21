@@ -8,7 +8,78 @@
 </head>
 <body>
   <div id="navbar-container"></div>
+  <div class="schedule-page">
+    <header class="schedule-header">
+      <h1>Event Schedule</h1>
+      <p>Discover an action-packed day filled with insightful sessions, panels, and networking opportunities.</p>
+    </header>
 
+    <section class="schedule-overview">
+      <h2>At a Glance</h2>
+      <div class="schedule-timeline">
+        <div class="timeline-item">
+          <time>9:00 AM</time>
+          <p>Welcome & Keynote Speech</p>
+        </div>
+        <div class="timeline-item">
+          <time>10:30 AM</time>
+          <p>Breakout Sessions: Data Security, Analytics, and AI Trends</p>
+        </div>
+        <div class="timeline-item">
+          <time>12:00 PM</time>
+          <p>Networking Lunch</p>
+        </div>
+        <div class="timeline-item">
+          <time>1:30 PM</time>
+          <p>Panel Discussion: "The Future of Data"</p>
+        </div>
+        <div class="timeline-item">
+          <time>3:00 PM</time>
+          <p>Workshop: Hands-on with Machine Learning</p>
+        </div>
+        <div class="timeline-item">
+          <time>5:00 PM</time>
+          <p>Closing Remarks & Thank You</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="schedule-details">
+      <h2>Session Highlights</h2>
+      <div class="session-card">
+        <h3>Welcome & Keynote Speech</h3>
+        <p>
+          Kick off the day with an inspiring keynote from our special guest, 
+          exploring the evolving role of data in shaping global decisions.
+        </p>
+      </div>
+      <div class="session-card">
+        <h3>Breakout Sessions</h3>
+        <p>
+          Choose from multiple tracks, including data security, advanced analytics, and AI innovations. 
+          Learn from top experts in each field.
+        </p>
+      </div>
+      <div class="session-card">
+        <h3>Panel Discussion</h3>
+        <p>
+          Join a diverse panel of thought leaders as they discuss the challenges and opportunities in the data-driven world.
+        </p>
+      </div>
+      <div class="session-card">
+        <h3>Hands-on Workshop</h3>
+        <p>
+          Participate in a hands-on session exploring machine learning tools and techniques, 
+          led by experienced practitioners.
+        </p>
+      </div>
+    </section>
+
+    <footer class="schedule-cta">
+      <h2>Don’t Miss Out!</h2>
+      <a href="../tickets/index.html" class="btn">Buy Your Ticket Now</a>
+    </footer>
+  </div>
   <script>
      fetch('/components/navbar.html')
     .then(response => response.text())
@@ -17,10 +88,5 @@
     })
     .catch(error => console.error('Error loading navbar:', error));
   </script>
-
-  <section id="about">
-    <h1>Schedule</h1>
-    <p>Your premier conference for data insights, security, and innovation.</p>
-  </section>
 </body>
 </html>
