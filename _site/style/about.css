@@ -7,8 +7,8 @@
   .about-header {
     text-align: center;
     padding: 50px 20px;
-    background: url('/images/about-header.jpg') center/cover no-repeat;
-    color: #ffffff;
+    background: url('/images/about-header.webp') center/cover no-repeat;
+    color: black;
   }
   
   .about-header h1 {
